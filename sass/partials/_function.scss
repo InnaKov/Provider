@@ -1,0 +1,103 @@
+.functions{
+    display: block;
+    position: absolute ;
+    .menu{
+        display: flex;
+        justify-content: left;
+        margin: 80px 0 0 277px;
+        @media (max-width: 1279px) {
+            margin: 123px 0 0 277px; 
+        }
+        @media (max-width: 767px) {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            margin: 90px 0 0 200px;
+        }
+        ul.navigation{
+            display: block;
+            margin: 0 210px 0 0;
+            @media (max-width: 1439px) {
+               margin: 0 100px 0 0; 
+            }
+            li{
+                display: block;
+                margin: 25px 0 20px 0;
+                @media (max-width: 767px) {
+                    margin: 5px 0 5px 0; 
+                }
+                h5{
+                    display: block;
+                    height: 24px;
+                    font-family: "Lato";
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 150%;
+                    letter-spacing: 0.01em;
+                    text-transform: uppercase;
+                    color: #2F2F2F;
+                    @media (max-width: 767px) {
+                        font-size: 12px;              
+                    }
+                }
+                a{
+                    display: block;
+                    font-family: "Lato";
+                    width: 162px;
+                    height: 24px;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 150%;
+                    letter-spacing: 0.01em;
+                    text-transform: uppercase;
+                    color: #2F2F2F;
+                    @media (max-width: 767px) {
+                        font-size: 8px;              
+                    }
+                }
+            }
+        }
+        ul.help{
+            display: block;
+            li{
+                display: block;
+                margin: 25px 0 20px 0;
+                @media (max-width: 767px) {
+                    margin: 5px 0 5px 0; 
+                }
+                h5{
+                    display: block;
+                    height: 24px;
+                    font-family: "Lato";
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 150%;
+                    letter-spacing: 0.01em;
+                    text-transform: uppercase;
+                    color: #2F2F2F;
+                    @media (max-width: 767px) {
+                        font-size: 12px;              
+                    }
+                }
+                a{
+                    display: block;
+                    height: 24px;
+                    font-family: "Lato";
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 150%;
+                    letter-spacing: 0.01em;
+                    text-transform: uppercase;
+                    color: #2F2F2F;
+                    @media (max-width: 767px) {
+                        font-size: 8px;              
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,36 @@
+footer{
+    display: block;
+    background: $background-section;
+    z-index: 1;
+	.left{
+   		float: left;
+	}
+	.right{
+    	float: right;
+    	@media (max-width: 1279px) {
+        	float: left; 
+    	}
+    	@media (max-width: 767px) {
+        	float: left; 
+    	}
+	}
+	.logo{
+   		float: left;
+    	width: 146px;
+   		height: 27px;
+    	margin: 16px 0 0 0;
+		a{
+  			display: block;
+  			img.rezolut{
+    			float: left;
+    			position: absolute;
+    			width: 146px;
+    			height: 27px;
+   				margin: 80px 130px 0 0;
+   				@media (max-width: 767px) {
+        			margin: 30px 130px 0 0; 
+    			}
+			}
+		}
+	}
+}

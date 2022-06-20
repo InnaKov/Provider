@@ -1,0 +1,107 @@
+.contacts{
+    display: block;
+    margin: 100px 138px 55px 0;
+    @media (max-width: 1439px) {
+        margin: 100px 0 55px 0;  
+    }
+    @media (max-width: 1279px) {
+        margin: 105px 500px 60px 0;  
+    }
+    @media (max-width: 767px) {
+        display: block;
+        margin: 53px 300px 50px 10px                
+    }
+    ul.address{
+        display: block;
+        li{
+            display: block;
+            margin: 0 0 15px 0;
+            h5{
+                height: 24px;
+                font-family: $brand-font-family1;
+                font-style: $base-font-style;
+                font-weight: $font-weight-semi-bold;
+                font-size: 16px;
+                line-height: $line-height3;
+                letter-spacing: 0.01em;
+                text-transform: uppercase;
+                color: $font-color-black;
+                @media (max-width: 767px) {
+                    font-size: 12px;              
+                }
+            }
+            a{
+                display: block;
+                height: 24px;
+                font-family: $brand-font-family1;
+                font-style: $base-font-style;
+                font-weight: $font-weight-normal;
+                font-size: 16px;
+                line-height: $line-height3;
+                letter-spacing: 0.01em;
+                text-transform: uppercase;
+                color: $font-color-black;
+                margin: 25px 0 0 0;
+                @media (max-width: 767px) {
+                    font-size: 10px;              
+                }
+            }
+            p{
+                height: 27px;
+                font-family: $brand-font-family1;
+                font-style: $base-font-style;
+                font-weight: $font-weight-normal;
+                font-size: 18px;
+                line-height: $line-height3;
+                letter-spacing: 0.01em;
+                color: $font-color-bottom-p;
+                opacity: 0.5;
+                margin: 15px 0 0 0;
+                @media (max-width: 767px) {
+                    font-size: 10px;              
+                }
+            }
+        }
+    }
+    .socials{
+        display: block;
+        margin: 0 239px 0 0;
+        @media (max-width: 767px) {
+            margin: 0 0 0 0;
+        }
+        h5{
+            display: block;
+            font-family: $brand-font-family1;
+            font-style: $base-font-style;
+            font-weight: $font-weight-semi-bold;
+            font-size: 16px;
+            line-height: $line-height3;
+            letter-spacing: 0.01em;
+            text-transform: uppercase;
+            color: $font-color-black;
+            margin: 50px 0 29px 0;
+            @media (max-width: 767px) {
+                font-size: 12px;              
+            }
+        }
+        ul.social_page{
+            display: flex;
+            flex-wrap: wrap;
+            li{
+                display: block;
+                a{
+                    display: block;
+                    img{
+                        display: block;
+                        margin: 0 15px 125px 0;
+                        @media (max-width: 1279px) {
+                            margin: 0 15px 0 0;
+                        }
+
+                    }
+                }
+                
+            }
+        }
+    }
+}

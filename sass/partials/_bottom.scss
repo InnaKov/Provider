@@ -1,0 +1,95 @@
+.bottom{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    .left{
+        float: left;
+        ul{
+            position: relative;
+            display: flex;
+            justify-content: left;
+            margin: 0 0 0 275px;
+            @media (max-width: 1439px) {
+                margin: 0 0 0 50px;
+            }
+            @media (max-width: 767px) {
+                display: none;
+            }
+            &::before{
+                content: "";
+                position: absolute;
+                width: 651px;
+                height: 1px;
+                left: 0;
+                background: $background-line-bottom;
+                opacity: 0.3;
+            }
+            li{
+                display: block;
+                height: 27px;
+                font-family: $brand-font-family1;
+                font-style: $base-font-style;
+                font-weight: $font-weight-normal;
+                font-size: 18px;
+                line-height: $line-height3;
+                letter-spacing: 0.01em;
+                color: $font-color-bottom-p;
+                opacity: 0.4;
+                margin: 50px 113px 42px 0;
+                @media (max-width: 1279px) {
+                    margin: 10px 80px 10px 0;
+                }
+            }
+        }
+    }
+    .right{
+        float: right;
+         @media (max-width: 1279px) {
+            display: block;               
+        }
+        @media (max-width: 767px) {
+            display: block;               
+        }
+        p{
+            height: 27px;
+            position: relative;
+            font-family: $brand-font-family1;
+            font-style: $base-font-style;
+            font-weight: $font-weight-normal;
+            font-size: 18px;
+            line-height: $line-height3;
+            letter-spacing: 0.01em;
+            color: $font-color-bottom-p;
+            opacity: 0.4;
+            margin: 0 205px 42px 0;
+            padding: 50px 0 0 0;
+            @media (max-width: 1439px) {
+                margin: 0 50px 42px 0;
+            }
+            @media (max-width: 1279px) {
+                margin: 30px 50px 60px 50px;
+                padding: 20px 0 40px 0;
+            }
+            @media (max-width: 767px) {
+                margin: 0 50px 42px 10px;
+                padding: 10px 50px 0 0;
+                font-size: 12px;                
+            }
+            &::before{
+                content: "";
+                position: absolute;
+                top: 0;
+                width: 375px;
+                height: 2px;
+                background: $background-line-bottom;
+                opacity: 0.3;
+                margin: 0 0 150px 0;
+                @media (max-width: 1279px) {
+                    margin: 0 0 150px 0
+                }
+ 
+            }
+        }
+    }
+}
+

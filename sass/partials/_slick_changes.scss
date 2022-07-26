@@ -1,0 +1,31 @@
+.slick_slider{
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  li {
+    width: 100%;
+    position: relative;
+  }
+  .slick-arrow{
+    position: absolute;
+    bottom: 0;
+    width: 32px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../images/icon_reviews_arrow_left_right.png);
+    background-color: inherit;
+    border: none;
+    text-indent: -9999px;
+    overflow: hidden;
+    z-index: 2;
+    cursor: pointer;
+    &.slick-prev{
+      right: 68px;
+      background-position: 0 0;
+    }
+    &.slick-next{
+      right: 0;
+      background-position: 100% 0;
+    }
+  }
+}
